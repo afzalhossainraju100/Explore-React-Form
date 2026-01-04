@@ -45,7 +45,7 @@ const ControlField = () => {
         <br />
         {error && <p style={{ color: "red" }}>{error}</p>}
         <input type="submit" value="Submit" />
-      </form>
+      </form>  
     </div>
   );
 };
